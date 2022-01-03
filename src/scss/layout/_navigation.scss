@@ -1,0 +1,60 @@
+.navigationheader__maincontainer {
+    width: 100%;
+    background-color: #000;
+}
+
+.navigationheader__container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 1rem;
+    align-items: center;
+
+    &-languagecontainer {
+        display: flex;
+        width: $language-width;
+        justify-content: space-between;
+
+        &-language {
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+
+            &--en {
+                color: #fff;
+            }
+
+            &--ua {
+                margin-left: 20px;
+                color: $grey-color;
+            }
+        }
+    }
+
+    &-logocontainer {
+        margin-left: -$language-width;
+        margin-right: -$icon-width;
+
+        &-header {
+            font-family: 'Glysa', sans-serif;
+            color: #fff;
+            font-weight: normal;
+            font-size: 2.0rem;
+            cursor: pointer;
+        }
+    }
+
+    &-icons {
+        display: flex;
+        justify-content: space-between;
+        width: $icon-width;
+        
+        & > svg {
+            color: #fff;
+        }
+        
+    }
+
+}
