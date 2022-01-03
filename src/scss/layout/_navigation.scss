@@ -1,3 +1,5 @@
+// NAVIGATION HEADER
+
 .navigationheader__maincontainer {
     width: 100%;
     background-color: #000;
@@ -53,8 +55,24 @@
         
         & > svg {
             color: #fff;
-        }
-        
+        }   
     }
+}
 
+// NAVIGATION
+
+.navigation-maincontainer {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding: 4rem 0;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    text-transform: uppercase;    
 }
