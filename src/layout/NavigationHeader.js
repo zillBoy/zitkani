@@ -20,7 +20,10 @@ const NavigationHeader = () => {
                     <Search size={20} />
                     <User size={20} />
                     <Heart size={20} />
-                    <ShoppingCart size={20} />
+                    <div className='navigationheader__container-icons--shopcart'>
+                        <ShoppingCart size={20} />
+                        <span className='navigationheader__container-icons--span'>(0)</span>
+                    </div>
                 </div>
             </div>
         </div>

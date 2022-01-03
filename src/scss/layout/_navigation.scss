@@ -52,10 +52,17 @@
         display: flex;
         justify-content: space-between;
         width: $icon-width;
+        color: #fff;
         
-        & > svg {
-            color: #fff;
-        }   
+        &--shopcart {
+            display: flex;
+            align-items: center;
+        }
+
+        &--span {
+            font-size: 1.4rem;
+            margin-left: 0.5rem;
+        }
     }
 }
 
