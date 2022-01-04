@@ -5,10 +5,12 @@
 // BASE 
 @import './base/reset';
 @import './base/typography';
+@import './base/animations';
 
 // COMPONENTS
 @import './components/textchevron';
 @import './components/textscroll';
+@import './components/productdesc';
 
 // LAYOUT
 @import './layout/navigation';

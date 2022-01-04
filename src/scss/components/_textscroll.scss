@@ -1,3 +1,12 @@
+// TEXTSCROLL MAIN
+
+.textscroll_main {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+// TEXTSCROLL
+
 .textscroll-container {
     overflow: hidden;
     width: 100%;
@@ -7,9 +16,13 @@
     text-transform: uppercase;
     font-size: 8rem;
     font-family: $secondary-font;
-    width: 690rem;
+    width: $text-scroll;
     margin: 0 2rem;
     text-transform: uppercase;
+
+    &-collection {
+        width: $text-scroll-collection;
+    }
 
     &-right {
         
@@ -29,14 +42,4 @@
     &--grey {
         color: $dark-grey-color;
     }
-}
-
-@keyframes textscroll-right {
-    0% {transform: translateX(0);}
-    100% {transform: translateX(-413.5rem);}
-}
-
-@keyframes textscroll-left {
-    0% {transform: translateX(-413.5rem);}
-    100% {transform: translateX(0);}
 }

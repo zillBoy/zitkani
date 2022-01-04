@@ -1,0 +1,9 @@
+@keyframes textscroll-right {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(- calc($text-scroll/2) + 4rem);}
+}
+
+@keyframes textscroll-left {
+    0% {transform: translateX(- calc($text-scroll/2) + 4rem);}
+    100% {transform: translateX(0);}
+}
