@@ -10,7 +10,6 @@ import LandingImage2 from './assets/images/landing2.png'
 import CollectionImage1 from './assets/images/featured_product1.jpg'
 import CollectionImage2 from './assets/images/featured_product2.jpg'
 
-
 const App = () => {
   return (
     <>
