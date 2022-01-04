@@ -1,4 +1,55 @@
 .footer__container {
+    
     background-color: #000;
-    color: #fff;
+    color: #e2e2e2;
+    font-size: 1.8rem;
+    padding: 10rem 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-weight: normal;
+
+    &-logocontainer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40vh;
+
+        &-logo {
+            h1 {
+                margin: 0;
+                font-family: $secondary-font;
+                font-weight: normal;
+                font-size: 6rem;
+                text-transform: uppercase;
+            }
+        }
+
+        &-copyright {
+            color: $dark-grey-color;
+        }
+
+    }
+
+    &-nav {
+
+        &--header {
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-weight: normal;
+        }
+
+        &--navitems {
+
+            font-size: 1.6rem;
+
+            &--item {
+                margin-bottom: 1rem;
+                color: $dark-grey-color;
+            }
+
+        }
+    }
 }
