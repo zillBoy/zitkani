@@ -3,6 +3,7 @@ import { ArrowLeftCircle, ArrowRightCircle } from 'react-feather'
 import ProductImage1 from '../assets/images/product1.jpg'
 import ProductImage2 from '../assets/images/product2.jpg'
 import ProductImage3 from '../assets/images/product3.jpg'
+import OvalButton from './OvalButton'
 import ProductPrice from './ProductPrice'
 
 const Product = () => {
@@ -27,6 +28,10 @@ const Product = () => {
                         <ProductPrice firstLabel='100 cm' secondLabel='119.00 USD' />
                     </div>
                 </div>
+            </div>
+
+            <div className='product_container-btndiv'>
+                <OvalButton btnText='Shop Now' />
             </div>
         </div>
     )

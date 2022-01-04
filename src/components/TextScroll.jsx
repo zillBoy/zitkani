@@ -9,6 +9,10 @@ const TextScroll = ({ scroll='right', text='', className, color }) => {
                     <span className={`textscroll--grey textscroll--grey--${color}`}>{text}</span>
                     <span>{text}</span>
                     <span className={`textscroll--grey textscroll--grey--${color}`}>{text}</span>
+                    {className === 'subscribe' && <>
+                        <span>{text}</span>
+                        <span className={`textscroll--grey textscroll--grey--${color}`}>{text}</span>
+                    </>}
                 </span>
             </div>
         </div>

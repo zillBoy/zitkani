@@ -23,10 +23,6 @@
         display: flex;
         justify-content: space-between;
 
-        &-main {
-            
-        }
-
         &-image {
 
             &--center {
@@ -37,5 +33,10 @@
             height: 46rem;
             object-fit: cover;
         }
+    }
+
+    &-btndiv {
+        text-align: center;
+        margin: 5rem 0;
     }
 }

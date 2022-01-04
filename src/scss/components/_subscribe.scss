@@ -1,0 +1,43 @@
+.subscribe__container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20rem;
+
+    &-para {
+        font-size: 1.6rem;
+        color: $secondary-color-light;
+        width: 37%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &-inputdiv {
+        
+        display: inline-flex;
+        margin-bottom: 5rem;
+
+        &-input {
+            width: 40rem;
+            padding: 2.5rem 2rem;
+            background-color: rgba(0,0,0,0);
+            border: 2px solid #000;
+            border-right: 0px;
+        }
+
+        &-btn {
+            width: 20rem;
+            background-color: rgba(0,0,0,0);
+            border: 2px solid $secondary-color;
+            text-align: center;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-weight: bold;
+        }
+    }
+
+}

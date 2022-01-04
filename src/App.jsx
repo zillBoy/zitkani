@@ -10,6 +10,7 @@ import LandingImage2 from './assets/images/landing2.png'
 import CollectionImage1 from './assets/images/featured_product1.jpg'
 import CollectionImage2 from './assets/images/featured_product2.jpg'
 import Product from './components/Product'
+import Subscribe from './components/Subscribe'
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
       <ProductHeader header='collection' image1={CollectionImage2} image2={CollectionImage1} className='reverse'  />
       <TextScrollMain text='All product' color='secondary' className='product' />
       <Product />
+      <TextScrollMain text='subscribe' className='subscribe' />
+      <Subscribe />
     </>
   )
 }

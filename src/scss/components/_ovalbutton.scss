@@ -1,0 +1,34 @@
+.oval-btn {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 6rem;
+    width: $style-btn-width;
+    height: $style-btn-height;
+    position: relative;
+    text-transform: uppercase;
+
+    &--span::before {
+        content: "";
+        width: $style-btn-width;
+        height: $style-btn-height;
+        border: 1px solid $secondary-color;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: rotate(-15deg);
+    }
+
+    &--span2::before {
+        border: 1px solid $secondary-color;
+        transform: rotate(-5deg);
+    }
+
+    &--para {
+        font-size: 1.8rem;
+        width: 100%;
+        color: $secondary-color-light;
+        text-align: center;
+    }
+}
