@@ -1,0 +1,41 @@
+.product_container {
+    &-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & > svg {
+            margin: 0 4rem;
+            margin-bottom: 4rem;
+            color: $secondary-color-light;
+        }
+    }
+
+    &-imagedivcontainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-imagediv {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        &-main {
+            
+        }
+
+        &-image {
+
+            &--center {
+                height: 53rem;    
+            }
+
+            width: 100%;
+            height: 46rem;
+            object-fit: cover;
+        }
+    }
+}

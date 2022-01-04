@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductPrice from '../components/ProductPrice'
 
 const ProductHeader = ({ className='', image1, image2, header='' }) => {
     return (
@@ -10,10 +11,7 @@ const ProductHeader = ({ className='', image1, image2, header='' }) => {
                 {header === 'collection' ? <div className='productheader-container-content--collection'>
                     <p className='productheader-container-content--firstcollectionpara'>02/05</p>
                     <img className='productheader-container-content-img productheader-container-content-imgcollection' src={image2} alt='women model 2' />
-                    <div className='productheader-container-content--collectionparadiv'>
-                        <p className='productheader-container-content--collectionpara productheader-container-content--collectionpara--small'>100 cm</p>
-                        <p className='productheader-container-content--collectionpara'>89.00 USD</p>
-                    </div>
+                    <ProductPrice firstLabel='100 cm' secondLabel='89.00 USD' />
                 </div> : <>
                     <p className='productheader-container-content--para'>Scroll Down To Explore</p>
                     <img className='productheader-container-content-img' src={image2} alt='women model 2' />
