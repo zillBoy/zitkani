@@ -11,6 +11,7 @@ import CollectionImage1 from './assets/images/featured_product1.jpg'
 import CollectionImage2 from './assets/images/featured_product2.jpg'
 import Product from './components/Product'
 import Subscribe from './components/Subscribe'
+import Footer from './layout/Footer'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Product />
       <TextScrollMain text='subscribe' className='subscribe' />
       <Subscribe />
+      <Footer />
     </>
   )
 }
