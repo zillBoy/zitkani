@@ -1,11 +1,11 @@
 import React from 'react'
 import TextScroll from './TextScroll'
 
-const TextScrollMain = ({ text='', className='' }) => {
+const TextScrollMain = ({ text='', className='', color='' }) => {
     return (
-        <div className='textscroll_main'>
-            <TextScroll className={className} text={text} />
-            <TextScroll className={className} scroll='left' text={text} />
+        <div className={`textscroll_main textscroll_main--${color}`}>
+            <TextScroll color={color} className={className} text={text} />
+            <TextScroll color={color} className={className} scroll='left' text={text} />
         </div>
     )
 }

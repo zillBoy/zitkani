@@ -5,6 +5,10 @@
     align-items: center;
     width: 100%;
 
+    &-reverse {
+        flex-direction: row-reverse;
+    }
+
     &-imagecontainer {
         width: 50%;
         height: 58rem;
@@ -35,10 +39,42 @@
             margin-bottom: 3rem;
             cursor: pointer;
         }
+        
+        &--collection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 35%;
+        }
+
+        &--firstcollectionpara {
+            font-family: $secondary-font;
+            font-size: 2.0rem;
+            align-self: flex-start;
+
+        }
+
+        &--collectionparadiv {            
+            font-size: 2.0rem;
+            align-self: flex-start;
+        }
+
+        &--collectionpara {
+            margin-top: 1rem;
+
+            &--small {
+                font-size: 1.4rem;
+            }
+        }
 
         &-img {
             width: 30%;
             border: 1px solid #000;
+        }
+
+        &-imgcollection {
+            width: 100%;
         }
     }
 

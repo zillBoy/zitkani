@@ -3,6 +3,11 @@
 .textscroll_main {
     padding-top: 10rem;
     padding-bottom: 5rem;
+
+    &--secondary {
+        color: $secondary-color;
+    }
+    
 }
 
 // TEXTSCROLL
@@ -24,6 +29,10 @@
         width: $text-scroll-collection;
     }
 
+    &-product {
+        width: $text-scroll-product;
+    }
+
     &-right {
         
         & > * {
@@ -41,5 +50,9 @@
 
     &--grey {
         color: $dark-grey-color;
+
+        &--secondary {
+            color: $secondary-color-lighter;
+        }
     }
 }
